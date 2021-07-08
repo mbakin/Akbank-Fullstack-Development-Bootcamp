@@ -1,0 +1,13 @@
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.exe
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.deps.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.runtimeconfig.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.runtimeconfig.dev.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.dll
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\bin\Debug\netcoreapp3.1\usingDelegates.pdb
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.AssemblyInfo.cs
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.dll
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.pdb
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\1.Hafta\usingDelegates\usingDelegates\usingDelegates\obj\Debug\netcoreapp3.1\usingDelegates.genruntimeconfig.cache

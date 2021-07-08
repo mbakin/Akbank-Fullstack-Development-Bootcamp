@@ -1,0 +1,4 @@
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\AbstractVSInterface\AbstractVSInterface\obj\Debug\netcoreapp3.1\AbstractVSInterface.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\AbstractVSInterface\AbstractVSInterface\obj\Debug\netcoreapp3.1\AbstractVSInterface.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\AbstractVSInterface\AbstractVSInterface\obj\Debug\netcoreapp3.1\AbstractVSInterface.AssemblyInfo.cs
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\AbstractVSInterface\AbstractVSInterface\obj\Debug\netcoreapp3.1\AbstractVSInterface.csproj.CoreCompileInputs.cache

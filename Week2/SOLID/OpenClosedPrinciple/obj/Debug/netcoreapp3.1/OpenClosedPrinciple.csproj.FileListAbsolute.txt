@@ -1,0 +1,13 @@
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.exe
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.deps.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.runtimeconfig.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.runtimeconfig.dev.json
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.dll
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\bin\Debug\netcoreapp3.1\OpenClosedPrinciple.pdb
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.AssemblyInfo.cs
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.dll
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.pdb
+C:\Users\mehme\Desktop\TurkayUrkmezBootcamp\Week2\SOLID\OpenClosedPrinciple\obj\Debug\netcoreapp3.1\OpenClosedPrinciple.genruntimeconfig.cache
