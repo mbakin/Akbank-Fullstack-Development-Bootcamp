@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 
 
-class Footer extends Component {
-  render() {
+const Footer = () => {
+  
     return (
       <footer className="text-muted py-5">
         <div className="container">
@@ -14,5 +14,5 @@ class Footer extends Component {
       </footer>
     );
   }
-}
+
 export default Footer

@@ -1,22 +1,28 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-class Card extends Component {
-  render() {
+const Card = (props) => {
+  
+    const {title, overview, vote_avarage, poster_path, id}= props.movie
 
-
-    const {title, overview, vote_avarage, poster_path}= this.props.movie
+    const truncateString = (str, num) => {
+      if (str.length > num) {
+        return str.slice(0, num) + "...";
+      } else {
+        return str;
+      }
+    }
 
     return (
       <div className="card shadow-sm">
 
-        <img src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt={this.props.movie.title}/>
+        <img src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt={props.movie.title}/>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <p className="card-text">{overview}</p>
+          <p className="card-text">{truncateString(overview, 120)}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
-              <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+              <Link to={`/movies/${id}`} type="button" className="btn btn-sm btn-outline-secondary">View</Link>
             </div>
             <small className="text-muted">{vote_avarage}</small>
           </div>
@@ -25,6 +31,5 @@ class Card extends Component {
 
     )
   }
-}
 
 export default Card;

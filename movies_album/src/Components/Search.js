@@ -1,30 +1,29 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-class Search extends Component{
+const Search = (props) => {
 
-  state ={
-    term: " "
-  }
-  handleOnSubmit = (event) =>{
+  const [term, setTerm] = useState("")
+
+  const handleOnSubmit = (event) =>{
     event.preventDefault()
-    this.props.searchMovie(this.state.term)
+    props.searchMovie(term)
   }
-  handleOnSearch =(event) => {
-    this.setState({term : event.target.value})
+  const handleOnSearch =(event) => {
+    //this.setState({term : event.target.value})
+    setTerm(event.target.value)
   }
 
-  render() {
     return(
-      <form onSubmit={this.handleOnSubmit} className="row g-3 mb-5">
+      <form onSubmit={handleOnSubmit} className="row g-3 mb-5">
         <div className="col-8">
-          <input onChange={this.handleOnSearch} type="text" className="form-control" value={this.state.term} placeholder="Search.."/>
+          <input onChange={handleOnSearch} type="text" className="form-control" value={term} placeholder="Search.."/>
         </div>
         <div className="col-4">
           <input type="submit" value="Search" className="form-control btn-block btn btn-danger text-white"/>
         </div>
       </form>
     )
-  }
+  
 }
 
 export default Search

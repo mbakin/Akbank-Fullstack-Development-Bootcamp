@@ -2,13 +2,13 @@ import React, {Component} from "react";
 import Card from "./Card";
 
 
-class CardList extends Component {
-  render() {
+const CardList = (props) => {
+  
     return (
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         {
-          this.props.movies.map(function (movie){
+          props.movies.map(function (movie){
             return(
               <div className="col" key={movie.id}>
                 <Card movie={movie}/>
@@ -19,7 +19,7 @@ class CardList extends Component {
 
       </div>
     );
-  }
+  
 }
 
 export default CardList
