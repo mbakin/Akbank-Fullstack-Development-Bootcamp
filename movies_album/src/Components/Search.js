@@ -23,7 +23,7 @@ const Search = () => {
           <input onChange={handleOnSearch} type="text" className="form-control" value={term} placeholder="Search.."/>
         </div>
         <div className="col-4">
-          <input type="submit" value="Search" className="form-control btn-block btn btn-danger text-white"/>
+          <input type="submit" value="Search" className="form-control btn-block btn btn-danger text-white" disabled={!(term)} />
         </div>
       </form>
     )

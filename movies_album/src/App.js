@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
@@ -7,16 +7,17 @@ import CardList from "./Components/CardList";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import CardDetail from "./Components/CardDetail";
-import { MovieProvider } from "./context/MovieContext";
+import { MovieContext } from "./context/MovieContext";
+
 
 const App = () =>  {
 
   
-
+  const { loading } = useContext(MovieContext)
   
     return (
       <Router>
-        <MovieProvider>
+        
           <>
         <Navbar/>
         <Switch>
@@ -27,7 +28,7 @@ const App = () =>  {
                 <div className="container">
                   <Search />
                   {
-                    false ?
+                    loading ?
                       (
                         <div className="spinner-border text-danger" role="status">
                           <span className="visually-hidden">Loading...</span>
@@ -47,7 +48,7 @@ const App = () =>  {
         </Switch>
         <Footer/>
         </>
-        </MovieProvider>
+        
       </Router>
       
     );
