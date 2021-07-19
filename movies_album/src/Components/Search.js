@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { MovieContext } from "../context/MovieContext";
 
-const Search = (props) => {
+const Search = () => {
+
+
+  const { searchMovie } = useContext(MovieContext)
 
   const [term, setTerm] = useState("")
 
   const handleOnSubmit = (event) =>{
     event.preventDefault()
-    props.searchMovie(term)
+    searchMovie(term)
   }
   const handleOnSearch =(event) => {
     //this.setState({term : event.target.value})

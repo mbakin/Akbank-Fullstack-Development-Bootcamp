@@ -1,14 +1,17 @@
-import React, {Component} from "react";
+import React, { useContext } from "react";
 import Card from "./Card";
+import { MovieContext } from "../context/MovieContext";
 
 
-const CardList = (props) => {
+const CardList = () => {
+
+  const { movies } = useContext(MovieContext)
   
     return (
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         {
-          props.movies.map(function (movie){
+          movies.map(function (movie){
             return(
               <div className="col" key={movie.id}>
                 <Card movie={movie}/>
